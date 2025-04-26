@@ -1,6 +1,3 @@
-*.yml
-*.yaml
-*.properties
 
 HELP.md
 .gradle
@@ -39,3 +36,8 @@ out/
 
 ### VS Code ###
 .vscode/
+
+*.yml
+*.yaml
+*.properties
+
