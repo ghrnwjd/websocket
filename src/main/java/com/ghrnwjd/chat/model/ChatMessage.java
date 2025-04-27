@@ -8,6 +8,7 @@ import lombok.Setter;
 import org.hibernate.annotations.CreationTimestamp;
 
 import java.sql.Timestamp;
+import java.time.LocalDateTime;
 
 @Getter
 @Setter
@@ -39,7 +40,7 @@ public class ChatMessage {
 
     @Column()
     @CreationTimestamp
-    private Timestamp timestamp;
+    private LocalDateTime timestamp;
 
     private int readCount; // 내 글을 읽은 사람 확인
 }
