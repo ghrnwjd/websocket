@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class PageController {
 
-    @GetMapping("/chat")
+    @GetMapping("/chata")
     public String chat() {
         return "chat.html";
     }
